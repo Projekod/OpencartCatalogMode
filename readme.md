@@ -21,6 +21,7 @@ admin panelinden hiç bir ayar yapmanıza gerek yoktur, aşağıdaki kurulum yö
 Kurulum :
 -----------
 1- İndirdiğiniz dosya içerisinde bulunan *extPjkd* dizinini opencart yüklü ana dizine yüklüyoruz.
+
 2- Opencart anadizini içerisinde bulunan index.php dosyasını açıp
 
 <code>
