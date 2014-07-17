@@ -9,3 +9,14 @@ Opencart için katalog modu eklentisi, Sepete ekle butonu ile sepet fonksiyonlar
 
 
 ![Screen 2](http://i.imgur.com/K5l4CWo.jpg "Screen 2")
+
+admin panelinden hiç bir ayar yapmanıza gerek yoktur, aşağıdaki kurulum yönergelerini izleyerek aktif edebilirsiniz.
+
+
+
+Kurulum :
+-----------
+
+** İhtiyaçlar **
+
+1- opencart için vqmod eklentisi
