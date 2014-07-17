@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <file path="system/library/" name="response.php">
+        <operation>
+            <search position="before"><![CDATA[if ($this->level) {]]></search>
+            <add><![CDATA[
+                global $ext3dCatalog;$this->output = $ext3dCatalog->setOutput($this->output)->removeButtons();
+            ]]></add>
+        </operation>
+    </file>
+</modification>
