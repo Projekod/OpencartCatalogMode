@@ -24,16 +24,17 @@ Kurulum :
 
 2- Opencart anadizini içerisinde bulunan index.php dosyasını açıp
 
-<code>
+<pre>
 // Router
+
 if (isset($request->get['route'])) {
-</code>
+</pre>
 
 satırının hemen üstüne
 
-<code>
+<pre>
 include 'extPjkd/loader.php';
-</code>
+</pre>
 
 satırını ekliyoruz.
 
