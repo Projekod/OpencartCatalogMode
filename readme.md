@@ -17,6 +17,8 @@ admin panelinden hiç bir ayar yapmanıza gerek yoktur, aşağıdaki kurulum yö
 -----------
 1- opencart için vqmod eklentisi : [Link](https://code.google.com/p/vqmod/)
 
+bu eklentiyi indirip kurmanız gerekiyor, nasıl indirilip kurulacağı sayfasında mevcut.
+
 
 Kurulum :
 -----------
@@ -40,4 +42,4 @@ satırını ekliyoruz.
 
 3- *extPjkd* dizini altında bulunan *vqmod* dizini içerisindeki  catalogmode.xml dosyasını ana dizinde bulunan vqmod klasörü altındaki xml klasörü içerisine kopyalıyoruz.
 
-4- Bitti
+4- Kurulum işlemi tamamlandı, artık katalog modu aktif edilmiş durumda, herhangi bir sayfayı açtığınızda sepete ekle butonu ile sepet butonları saklanmış olacak.
