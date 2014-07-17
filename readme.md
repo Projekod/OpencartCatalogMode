@@ -13,10 +13,29 @@ Opencart için katalog modu eklentisi, Sepete ekle butonu ile sepet fonksiyonlar
 admin panelinden hiç bir ayar yapmanıza gerek yoktur, aşağıdaki kurulum yönergelerini izleyerek aktif edebilirsiniz.
 
 
+İhtiyaçlar :
+-----------
+1- opencart için vqmod eklentisi : [Link](https://code.google.com/p/vqmod/)
+
 
 Kurulum :
 -----------
+1- İndirdiğiniz dosya içerisinde bulunan *extPjkd* dizinini opencart yüklü ana dizine yüklüyoruz.
+2- Opencart anadizini içerisinde bulunan index.php dosyasını açıp
 
-** İhtiyaçlar **
+<code>
+// Router
+if (isset($request->get['route'])) {
+</code>
 
-1- opencart için vqmod eklentisi
+satırının hemen üstüne
+
+<code>
+include 'extPjkd/loader.php';
+</code>
+
+satırını ekliyoruz.
+
+3- *extPjkd* dizini altında bulunan *vqmod* dizini içerisindeki  catalogmode.xml dosyasını ana dizinde bulunan vqmod klasörü altındaki xml klasörü içerisine kopyalıyoruz.
+
+4- Bitti
